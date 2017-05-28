@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<meta name="keywords" content="HTML5">
+		<meta name="descrition" content="Aprenderndo HTML5">
+		<meta name="author" content="Fernando Souza">
+		<meta name="robots" content="index,follow">
+		
+		<title>Page HTML5</title>
+
+		<!--  Tag Personalizada -->
+		<script type="text/javascript">
+			document.createElement("myTag");
+		</script>
 
 		<!--  Para navegadores antigos -->
-		<style type="text/css">
-			header, section, footer, nav, main, article, figure{
-				display: block;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!--[if lt IE 9]>
+		    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
 	</head>
 	<body>
+		<header>
+			<h1>Main Title</h1>
+			<h2>Second Title</h2>
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">Sobre</a></li>
+					<li><a href="index.html">Contato</a></li>
+				</ul>
+			</nav>
+		</header>
 		Content of the document
+		
+		<myTag>
+			Minha Tag
+		</myTag>
+		
+		<section>
+			<article>
+				<header>
+					<h1>Titulo 1</h1>
+					<h2>Titulo 2</h2>
+					<p>Conteudo udo udo</p>
+				</header>
+				Conteudo....
+				<footer>
+					<small> <a href="news.html">Views more...</a></small>
+				</footer>
+			</article>
+		</section>
+
 	</body>
 </html>
